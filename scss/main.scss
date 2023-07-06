@@ -1,0 +1,157 @@
+ 
+
+
+$primary: #1644ED;
+$secondary:#0A1136;
+$textprimary: #E1E9f0;
+$textsecondary: #FBFF35;
+
+
+
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "textprimary": $textprimary,
+    "textsecondary": $textsecondary,
+    
+
+);
+
+@import'../node_modules/bootstrap/scss/bootstrap.scss';
+
+//////section 1 navbar //////
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: $textprimary;
+    
+}
+
+.navbar-btn1{
+    background-color: $textprimary;
+    color: black;
+    padding: 10px 18px 10px 18px;
+   
+
+}
+button.btn.btn-primary.ms-md-2.navbar-btn1:hover{
+    background-color: #acbeff;
+
+}
+
+
+.navbar-btn1-mob{
+    background-color: $textprimary;
+    color: black;
+}
+
+
+// home
+
+.home-btn{
+    background-color: $secondary;
+}
+
+.home-form{
+    margin-left: 3%;
+}
+
+@media (max-width: 375px) {
+
+    .home-mediaquery1 .home-form {
+        margin-left: 0%;
+
+    }
+}
+
+//// Trusted ////
+
+
+
+
+
+
+.button1 {
+	
+	border: none;
+	
+	border-radius: 5px;
+	
+	font-size: 18px;
+	font-weight: 600;
+	
+	
+	
+	cursor: pointer;
+}
+
+// section6  Hear What///
+
+.section6-icon{
+    width: 13px;
+}
+
+.section6-icon2{
+    width: 23px;
+}
+
+.section6-text1{
+    max-width: 458px;
+}
+
+
+
+
+
+
+
+
+
+.section7-btn{
+    background-color: #FCFF7D;
+    color: #000000;
+}
+
+
+.section7-btn:hover{
+    background-color: #f7f8c2;
+    color: #000000;
+}
+
+
+.section7-form{
+    width: 111%;
+}
+
+@media (max-width: 380px) {
+
+    .section7-mediaquery1 .section7-form {
+        margin-left: -5%;
+
+    }
+}
+
+
+// footer///
+
+.footer-btn{
+    border-radius: 0px;
+}
+
+
+.footer-link {
+    text-decoration: none;
+    color: #000;
+  }
+
+
+  
+
+
+
+  .copyright-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+  }
